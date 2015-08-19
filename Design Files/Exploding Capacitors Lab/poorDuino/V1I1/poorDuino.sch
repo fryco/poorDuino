@@ -6,36 +6,36 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="14" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="14" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="2" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="5" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,16 +53,16 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="12" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="13" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="12" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="1" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="7" fill="1" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="12" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="13" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="12" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="1" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="7" fill="1" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -15856,22 +15856,18 @@ Source: http://www.st.com/stonline/products/literature/ds/7194/ld1117axx.pdf</de
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="PC1" library="rcl" deviceset="CPOL-EU" device="D" value="47u"/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
-<part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
-<part name="ON" library="led" deviceset="LED" device="CHIP-LED0805" value="GREEN"/>
+<part name="5V" library="led" deviceset="LED" device="CHIP-LED0805" value="GREEN"/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
 <part name="P+5" library="supply1" deviceset="+5V" device=""/>
 <part name="D1" library="diode" deviceset="DIODE-" device="SMB" value="M7"/>
 <part name="X1" library="SmartPrj" deviceset="POWERSUPPLY_DC21MM" device="X"/>
-<part name="C4" library="SmartPrj" deviceset="C-EU" device="C0805" value="100n"/>
-<part name="GND13" library="supply1" deviceset="GND" device=""/>
 <part name="P+8" library="supply1" deviceset="+5V" device=""/>
 <part name="R2" library="SmartPrj" deviceset="R-EU_" device="R0805" value="1M"/>
 <part name="C6" library="SmartPrj" deviceset="C-EU" device="C0805" value="100n"/>
 <part name="RESET" library="SmartPrj" deviceset="TS42" device="" value="TS42031-160R-TR-7260"/>
 <part name="Y2" library="SmartPrj" deviceset="RESONATOR" device="MU" value="CSTCE16M0V53-R0 16MHZ"/>
 <part name="POWER" library="SmartPrj" deviceset="PINHD-1X8" device="" value="8x1F-H8.5"/>
-<part name="D2" library="diode" deviceset="DIODE-" device="MINIMELF" value="CD1206-S01575"/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="R1" library="SmartPrj" deviceset="R-EU_" device="R0805" value="10K"/>
 <part name="R3" library="SmartPrj" deviceset="R-EU_" device="R0805" value="10K"/>
@@ -15896,6 +15892,12 @@ Source: http://www.st.com/stonline/products/literature/ds/7194/ld1117axx.pdf</de
 <part name="C7" library="SmartPrj" deviceset="C-EU" device="C0805" value="100n"/>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
 <part name="P+3" library="supply1" deviceset="+5V" device=""/>
+<part name="GND17" library="supply1" deviceset="GND" device=""/>
+<part name="R4" library="SmartPrj" deviceset="R-EU_" device="R0805" value="10K"/>
+<part name="3V3" library="led" deviceset="LED" device="CHIP-LED0805" value="BLUE"/>
+<part name="GND12" library="supply1" deviceset="GND" device=""/>
+<part name="+3V3" library="supply1" deviceset="+3V3" device=""/>
+<part name="GND13" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -15919,7 +15921,6 @@ Exploding Capacitors Lab
 http://fryco.github.io/poorDuino/</text>
 <text x="226.06" y="93.98" size="1.778" layer="91">SDA</text>
 <text x="226.06" y="96.52" size="1.778" layer="91">SCL</text>
-<text x="-83.82" y="-50.8" size="5.08" layer="91">Use of the ARDUINO name must be compliant with http://www.arduino.cc/en/Main/Policy</text>
 </plain>
 <instances>
 <instance part="ZU4" gate="G$1" x="157.48" y="53.34"/>
@@ -15928,16 +15929,16 @@ http://fryco.github.io/poorDuino/</text>
 <attribute name="VALUE" x="182.245" y="109.22" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="GND1" gate="1" x="177.8" y="93.98"/>
-<instance part="P+2" gate="1" x="121.92" y="93.98" smashed="yes">
-<attribute name="VALUE" x="123.825" y="96.52" size="1.778" layer="96" rot="R180"/>
+<instance part="P+2" gate="1" x="119.38" y="114.3" smashed="yes">
+<attribute name="VALUE" x="121.285" y="116.84" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="GND2" gate="1" x="132.08" y="35.56"/>
 <instance part="IOL" gate="A" x="223.52" y="33.02" rot="MR180"/>
 <instance part="IOH" gate="A" x="223.52" y="83.82" rot="MR180"/>
 <instance part="AD" gate="A" x="223.52" y="58.42" rot="MR180"/>
-<instance part="GND5" gate="1" x="134.62" y="119.38"/>
-<instance part="P+4" gate="1" x="132.08" y="142.24" smashed="yes">
-<attribute name="VALUE" x="133.985" y="144.78" size="1.778" layer="96" rot="R180"/>
+<instance part="GND5" gate="1" x="83.82" y="81.28"/>
+<instance part="P+4" gate="1" x="86.36" y="114.3" smashed="yes">
+<attribute name="VALUE" x="88.265" y="116.84" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="GND7" gate="1" x="208.28" y="160.02"/>
 <instance part="PC1" gate="G$1" x="116.84" y="170.18" smashed="yes">
@@ -15945,20 +15946,17 @@ http://fryco.github.io/poorDuino/</text>
 <attribute name="VALUE" x="109.22" y="167.64" size="1.778" layer="96"/>
 </instance>
 <instance part="GND9" gate="1" x="116.84" y="160.02"/>
-<instance part="GND12" gate="1" x="157.48" y="109.22"/>
 <instance part="GND19" gate="1" x="88.9" y="160.02"/>
-<instance part="ON" gate="G$1" x="215.9" y="124.46"/>
-<instance part="GND14" gate="1" x="215.9" y="114.3"/>
-<instance part="P+5" gate="1" x="215.9" y="144.78" smashed="yes">
-<attribute name="VALUE" x="217.805" y="147.32" size="1.778" layer="96" rot="R180"/>
+<instance part="5V" gate="G$1" x="33.02" y="71.12"/>
+<instance part="GND14" gate="1" x="33.02" y="60.96"/>
+<instance part="P+5" gate="1" x="33.02" y="91.44" smashed="yes">
+<attribute name="VALUE" x="34.925" y="93.98" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="D1" gate="G$1" x="116.84" y="185.42" rot="R90"/>
 <instance part="X1" gate="G$1" x="93.98" y="187.96" smashed="yes">
 <attribute name="NAME" x="83.82" y="195.58" size="1.27" layer="94"/>
 <attribute name="VALUE" x="83.82" y="193.04" size="1.27" layer="94"/>
 </instance>
-<instance part="C4" gate="G$1" x="193.04" y="104.14"/>
-<instance part="GND13" gate="1" x="193.04" y="111.76" rot="R180"/>
 <instance part="P+8" gate="1" x="208.28" y="180.34" smashed="yes">
 <attribute name="VALUE" x="210.185" y="182.88" size="1.778" layer="96" rot="R180"/>
 </instance>
@@ -15970,16 +15968,12 @@ http://fryco.github.io/poorDuino/</text>
 <attribute name="NAME" x="102.997" y="45.085" size="1.778" layer="95"/>
 <attribute name="VALUE" x="101.346" y="42.545" size="1.778" layer="96"/>
 </instance>
-<instance part="RESET" gate="G$1" x="132.08" y="104.14" rot="R180"/>
+<instance part="RESET" gate="G$1" x="121.92" y="86.36" rot="R180"/>
 <instance part="Y2" gate="G$1" x="88.9" y="53.34" smashed="yes" rot="R90"/>
-<instance part="POWER" gate="A" x="157.48" y="129.54"/>
-<instance part="D2" gate="G$1" x="129.54" y="86.36" smashed="yes" rot="R90">
-<attribute name="NAME" x="124.9426" y="88.9" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="134.3914" y="76.2" size="1.778" layer="96" rot="R90"/>
-</instance>
+<instance part="POWER" gate="A" x="60.96" y="91.44" rot="R180"/>
 <instance part="GND3" gate="1" x="88.9" y="35.56"/>
-<instance part="R1" gate="G$1" x="121.92" y="86.36" rot="R90"/>
-<instance part="R3" gate="G$1" x="215.9" y="134.62" rot="R270"/>
+<instance part="R1" gate="G$1" x="119.38" y="104.14" rot="R90"/>
+<instance part="R3" gate="G$1" x="33.02" y="81.28" rot="R270"/>
 <instance part="IC1" gate="G$1" x="190.5" y="215.9" smashed="yes">
 <attribute name="NAME" x="193.04" y="208.28" size="1.778" layer="95"/>
 <attribute name="VALUE" x="182.88" y="220.98" size="1.778" layer="96"/>
@@ -16010,7 +16004,9 @@ http://fryco.github.io/poorDuino/</text>
 <instance part="P+9" gate="VCC" x="172.72" y="220.98" smashed="yes">
 <attribute name="VALUE" x="170.18" y="220.98" size="1.778" layer="96"/>
 </instance>
-<instance part="+3V1" gate="G$1" x="139.7" y="142.24"/>
+<instance part="+3V1" gate="G$1" x="93.98" y="114.3" smashed="yes">
+<attribute name="VALUE" x="88.9" y="114.3" size="1.778" layer="96"/>
+</instance>
 <instance part="+3V2" gate="G$1" x="208.28" y="220.98" smashed="yes">
 <attribute name="VALUE" x="205.74" y="220.98" size="1.778" layer="96"/>
 </instance>
@@ -16023,9 +16019,17 @@ http://fryco.github.io/poorDuino/</text>
 <attribute name="VALUE" x="114.046" y="42.545" size="1.778" layer="96"/>
 </instance>
 <instance part="GND16" gate="1" x="121.92" y="35.56"/>
-<instance part="P+3" gate="1" x="144.78" y="142.24" smashed="yes">
-<attribute name="VALUE" x="146.685" y="144.78" size="1.778" layer="96" rot="R180"/>
+<instance part="P+3" gate="1" x="99.06" y="114.3" smashed="yes">
+<attribute name="VALUE" x="100.965" y="116.84" size="1.778" layer="96" rot="R180"/>
 </instance>
+<instance part="GND17" gate="1" x="119.38" y="76.2"/>
+<instance part="R4" gate="G$1" x="20.32" y="81.28" rot="R270"/>
+<instance part="3V3" gate="G$1" x="20.32" y="71.12"/>
+<instance part="GND12" gate="1" x="20.32" y="60.96"/>
+<instance part="+3V3" gate="G$1" x="20.32" y="91.44" smashed="yes">
+<attribute name="VALUE" x="15.24" y="91.44" size="1.778" layer="96"/>
+</instance>
+<instance part="GND13" gate="1" x="195.58" y="83.82"/>
 </instances>
 <busses>
 </busses>
@@ -16053,19 +16057,21 @@ http://fryco.github.io/poorDuino/</text>
 <segment>
 <pinref part="P+3" gate="1" pin="+5V"/>
 <pinref part="POWER" gate="A" pin="2"/>
-<wire x1="154.94" y1="137.16" x2="144.78" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="144.78" y1="137.16" x2="144.78" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="83.82" x2="71.12" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="83.82" x2="71.12" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="76.2" x2="99.06" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="76.2" x2="99.06" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="132.08" y1="129.54" x2="132.08" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="154.94" y1="129.54" x2="132.08" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="91.44" x2="86.36" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="91.44" x2="86.36" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="P+4" gate="1" pin="+5V"/>
 <pinref part="POWER" gate="A" pin="5"/>
 </segment>
 <segment>
 <pinref part="P+5" gate="1" pin="+5V"/>
 <pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="215.9" y1="139.7" x2="215.9" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="86.36" x2="33.02" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="208.28" y1="177.8" x2="208.28" y2="175.26" width="0.1524" layer="91"/>
@@ -16077,12 +16083,9 @@ http://fryco.github.io/poorDuino/</text>
 <pinref part="C2" gate="G$1" pin="+"/>
 </segment>
 <segment>
-<wire x1="121.92" y1="91.44" x2="129.54" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="129.54" y1="91.44" x2="129.54" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="P+2" gate="1" pin="+5V"/>
-<pinref part="D2" gate="G$1" pin="C"/>
 <pinref part="R1" gate="G$1" pin="2"/>
-<junction x="121.92" y="91.44"/>
+<wire x1="119.38" y1="109.22" x2="119.38" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="2">
@@ -16112,24 +16115,25 @@ http://fryco.github.io/poorDuino/</text>
 <pinref part="PC1" gate="G$1" pin="-"/>
 </segment>
 <segment>
-<wire x1="134.62" y1="127" x2="134.62" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="124.46" x2="134.62" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="154.94" y1="127" x2="134.62" y2="127" width="0.1524" layer="91"/>
-<wire x1="154.94" y1="124.46" x2="134.62" y2="124.46" width="0.1524" layer="91"/>
-<junction x="134.62" y="124.46"/>
+<wire x1="83.82" y1="93.98" x2="83.82" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="93.98" x2="83.82" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="96.52" x2="83.82" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="96.52" x2="83.82" y2="93.98" width="0.1524" layer="91"/>
+<junction x="83.82" y="93.98"/>
 <pinref part="GND5" gate="1" pin="GND"/>
 <pinref part="POWER" gate="A" pin="6"/>
 <pinref part="POWER" gate="A" pin="7"/>
 </segment>
 <segment>
 <wire x1="220.98" y1="88.9" x2="195.58" y2="88.9" width="0.1524" layer="91"/>
-<label x="196.215" y="88.9" size="1.778" layer="95"/>
 <pinref part="IOH" gate="A" pin="7"/>
+<pinref part="GND13" gate="1" pin="GND"/>
+<wire x1="195.58" y1="88.9" x2="195.58" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="215.9" y1="116.84" x2="215.9" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="63.5" x2="33.02" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="GND14" gate="1" pin="GND"/>
-<pinref part="ON" gate="G$1" pin="C"/>
+<pinref part="5V" gate="G$1" pin="C"/>
 </segment>
 <segment>
 <wire x1="88.9" y1="177.8" x2="88.9" y2="172.72" width="0.1524" layer="91"/>
@@ -16141,21 +16145,6 @@ http://fryco.github.io/poorDuino/</text>
 <pinref part="X1" gate="G$1" pin="1"/>
 <pinref part="GND19" gate="1" pin="GND"/>
 <pinref part="X1" gate="G$1" pin="3"/>
-</segment>
-<segment>
-<wire x1="129.54" y1="111.76" x2="132.08" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="111.76" x2="157.48" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="129.54" y1="111.76" x2="129.54" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="111.76" x2="132.08" y2="109.22" width="0.1524" layer="91"/>
-<junction x="132.08" y="111.76"/>
-<pinref part="GND12" gate="1" pin="GND"/>
-<pinref part="RESET" gate="G$1" pin="2"/>
-<pinref part="RESET" gate="G$1" pin="1"/>
-</segment>
-<segment>
-<wire x1="193.04" y1="109.22" x2="193.04" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="C4" gate="G$1" pin="1"/>
-<pinref part="GND13" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="Y2" gate="G$1" pin="2"/>
@@ -16197,6 +16186,19 @@ http://fryco.github.io/poorDuino/</text>
 <pinref part="GND16" gate="1" pin="GND"/>
 <wire x1="121.92" y1="40.64" x2="121.92" y2="38.1" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="RESET" gate="G$1" pin="3"/>
+<pinref part="RESET" gate="G$1" pin="4"/>
+<wire x1="121.92" y1="81.28" x2="119.38" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="81.28" x2="119.38" y2="78.74" width="0.1524" layer="91"/>
+<junction x="119.38" y="81.28"/>
+<pinref part="GND17" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="3V3" gate="G$1" pin="C"/>
+<pinref part="GND12" gate="1" pin="GND"/>
+<wire x1="20.32" y1="66.04" x2="20.32" y2="63.5" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="AREF" class="4">
 <segment>
@@ -16207,57 +16209,47 @@ http://fryco.github.io/poorDuino/</text>
 <wire x1="121.92" y1="60.96" x2="121.92" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="220.98" y1="91.44" x2="195.58" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="193.04" y1="91.44" x2="195.58" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="193.04" y1="99.06" x2="193.04" y2="91.44" width="0.1524" layer="91"/>
-<label x="196.215" y="92.075" size="1.778" layer="95"/>
+<wire x1="220.98" y1="91.44" x2="200.66" y2="91.44" width="0.1524" layer="91"/>
+<label x="208.915" y="92.075" size="1.778" layer="95"/>
 <pinref part="IOH" gate="A" pin="8"/>
-<pinref part="C4" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="RESET" class="0">
 <segment>
-<wire x1="137.16" y1="78.74" x2="129.54" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="129.54" y1="78.74" x2="121.92" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="78.74" x2="119.38" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="134.62" x2="154.94" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="96.52" x2="119.38" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="96.52" x2="119.38" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="81.28" x2="121.92" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="162.56" y1="96.52" x2="132.08" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="96.52" x2="129.54" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="129.54" y1="96.52" x2="119.38" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="129.54" y1="99.06" x2="129.54" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="99.06" x2="132.08" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="129.54" y1="83.82" x2="129.54" y2="78.74" width="0.1524" layer="91"/>
-<junction x="121.92" y="78.74"/>
-<junction x="119.38" y="96.52"/>
-<junction x="129.54" y="96.52"/>
-<junction x="132.08" y="96.52"/>
-<junction x="129.54" y="78.74"/>
-<label x="127" y="79.375" size="1.778" layer="95"/>
-<label x="134.62" y="134.62" size="1.6764" layer="95"/>
-<pinref part="ICSP" gate="A" pin="5"/>
-<pinref part="ZU4" gate="G$1" pin="RESET"/>
-<pinref part="RESET" gate="G$1" pin="4"/>
-<pinref part="RESET" gate="G$1" pin="3"/>
+<wire x1="104.14" y1="86.36" x2="63.5" y2="86.36" width="0.1524" layer="91"/>
+<label x="83.82" y="86.36" size="1.6764" layer="95" rot="R180"/>
 <pinref part="POWER" gate="A" pin="3"/>
-<pinref part="D2" gate="G$1" pin="A"/>
+<pinref part="RESET" gate="G$1" pin="1"/>
+<pinref part="RESET" gate="G$1" pin="2"/>
+<wire x1="104.14" y1="96.52" x2="104.14" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="91.44" x2="119.38" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="1"/>
+<wire x1="119.38" y1="91.44" x2="119.38" y2="96.52" width="0.1524" layer="91"/>
+<junction x="119.38" y="91.44"/>
+<wire x1="119.38" y1="96.52" x2="119.38" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="96.52" x2="104.14" y2="96.52" width="0.1524" layer="91"/>
+<junction x="119.38" y="96.52"/>
+<pinref part="ZU4" gate="G$1" pin="RESET"/>
+<wire x1="137.16" y1="78.74" x2="132.08" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="78.74" x2="132.08" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="96.52" x2="119.38" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="ICSP" gate="A" pin="5"/>
+<wire x1="162.56" y1="96.52" x2="132.08" y2="96.52" width="0.1524" layer="91"/>
+<junction x="132.08" y="96.52"/>
 </segment>
 </net>
 <net name="VIN" class="1">
 <segment>
-<wire x1="139.7" y1="121.92" x2="154.94" y2="121.92" width="0.1524" layer="91"/>
-<label x="139.7" y="121.92" size="1.778" layer="95"/>
+<wire x1="78.74" y1="99.06" x2="63.5" y2="99.06" width="0.1524" layer="91"/>
+<label x="78.74" y="99.06" size="1.778" layer="95" rot="R180"/>
 <pinref part="POWER" gate="A" pin="8"/>
 </segment>
 </net>
 <net name="SCK" class="0">
 <segment>
-<wire x1="190.5" y1="86.36" x2="220.98" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="190.5" y1="78.74" x2="190.5" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="78.74" x2="190.5" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="86.36" x2="220.98" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="78.74" x2="200.66" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="78.74" x2="200.66" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="99.06" x2="154.94" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="99.06" x2="154.94" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="86.36" x2="182.88" y2="86.36" width="0.1524" layer="91"/>
@@ -16272,8 +16264,8 @@ http://fryco.github.io/poorDuino/</text>
 </net>
 <net name="N$3" class="0">
 <segment>
-<wire x1="215.9" y1="127" x2="215.9" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="ON" gate="G$1" pin="A"/>
+<wire x1="33.02" y1="73.66" x2="33.02" y2="76.2" width="0.1524" layer="91"/>
+<pinref part="5V" gate="G$1" pin="A"/>
 <pinref part="R3" gate="G$1" pin="2"/>
 </segment>
 </net>
@@ -16291,10 +16283,10 @@ http://fryco.github.io/poorDuino/</text>
 </net>
 <net name="+3V3" class="0">
 <segment>
-<wire x1="154.94" y1="132.08" x2="139.7" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="88.9" x2="93.98" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="POWER" gate="A" pin="4"/>
 <pinref part="+3V1" gate="G$1" pin="+3V3"/>
-<wire x1="139.7" y1="139.7" x2="139.7" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="111.76" x2="93.98" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="OUT"/>
@@ -16304,6 +16296,11 @@ http://fryco.github.io/poorDuino/</text>
 <pinref part="C5" gate="G$1" pin="+"/>
 <wire x1="208.28" y1="215.9" x2="208.28" y2="213.36" width="0.1524" layer="91"/>
 <junction x="208.28" y="215.9"/>
+</segment>
+<segment>
+<pinref part="+3V3" gate="G$1" pin="+3V3"/>
+<pinref part="R4" gate="G$1" pin="1"/>
+<wire x1="20.32" y1="88.9" x2="20.32" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MISO" class="0">
@@ -16444,7 +16441,7 @@ http://fryco.github.io/poorDuino/</text>
 <pinref part="AD" gate="A" pin="6"/>
 </segment>
 <segment>
-<wire x1="220.98" y1="96.52" x2="203.2" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="96.52" x2="200.66" y2="96.52" width="0.1524" layer="91"/>
 <label x="208.28" y="96.52" size="1.778" layer="95"/>
 <pinref part="IOH" gate="A" pin="10"/>
 </segment>
@@ -16572,6 +16569,13 @@ http://fryco.github.io/poorDuino/</text>
 <wire x1="172.72" y1="215.9" x2="172.72" y2="213.36" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="215.9" x2="172.72" y2="215.9" width="0.1524" layer="91"/>
 <junction x="172.72" y="215.9"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="R4" gate="G$1" pin="2"/>
+<pinref part="3V3" gate="G$1" pin="A"/>
+<wire x1="20.32" y1="76.2" x2="20.32" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
