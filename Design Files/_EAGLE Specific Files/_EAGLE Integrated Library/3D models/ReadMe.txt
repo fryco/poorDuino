@@ -1,1 +1,0 @@
-Place STEP files of 3D models here.
