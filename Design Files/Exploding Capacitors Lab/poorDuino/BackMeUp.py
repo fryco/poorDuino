@@ -32,12 +32,13 @@ with open(backupInfoFile, 'rb+') as f:
 if backupInfo:
     if not os.path.exists("Backup"):
         os.makedirs("Backup")
+    prjName = os.path.basename(os.getcwd())
     timestamp = time.time()
     zfTimestamp  = \
     datetime.datetime.fromtimestamp(timestamp).strftime("%Y%m%d_%H%M%S")
     bckTimestamp = \
     datetime.datetime.fromtimestamp(timestamp).strftime("%H:%M:%S %d.%m.%Y")
-    zfName = zfTimestamp+'_'+revision+'.zip'
+    zfName = prjName+'_'+revision+'_'+zfTimestamp+'.zip'
     os.chdir("."+slash+"Backup")
     zf = zipfile.ZipFile(zfName, "w")
     os.chdir("..")
