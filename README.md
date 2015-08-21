@@ -2,9 +2,9 @@
 Arduino-like simple development board
 
 ## Idea
-Main purpose of designing `poorDuino` was to *utilize* dozen Atmega8/Atmega168 chips, which were collected by me, for few last years.
+Main purpose of designing `poorDuino` was to *utilize* dozen Atmega8/Atmega168 chips, which were collected by me, for last few years.
 
-`poorDuino`'s name comes from reduced manufacturing costs (i.e. no USB programmer onboard). 
+`poorDuino`'s name comes from reduced manufacturing costs (i.e. no USB programmer onboard). It might be decreased more, but it would not fulfill my needs.
 
 ##Features
 - Arduino UNO board shape,
