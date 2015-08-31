@@ -6,12 +6,12 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="25" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="1" altunitdist="mil" altunit="mil"/>
+<grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="1" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="18" name="Vias" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="yes"/>
+<layer number="18" name="Vias" color="14" fill="1" visible="no" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
@@ -232,7 +232,7 @@
 <hole x="15.24" y="50.8" drill="3.2"/>
 <hole x="13.97" y="2.54" drill="3.2"/>
 <text x="25.4" y="32.639" size="1.016" layer="25" font="vector" ratio="12">Exploding Capacitors Lab</text>
-<text x="47.117" y="37.465" size="1.016" layer="25" font="vector" ratio="12">V1I1</text>
+<text x="47.117" y="37.465" size="1.016" layer="25" font="vector" ratio="12">V1I2</text>
 <text x="43.9552" y="4.4534" size="1.4224" layer="25" font="vector" ratio="12" rot="R90">GND</text>
 <wire x1="62.484" y1="8.255" x2="62.992" y2="8.255" width="0.3048" layer="21"/>
 <wire x1="62.992" y1="8.255" x2="64.135" y2="7.112" width="0.3048" layer="21"/>
