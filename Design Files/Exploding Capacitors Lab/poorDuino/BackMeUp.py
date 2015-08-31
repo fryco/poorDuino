@@ -7,7 +7,7 @@ from sys import platform as _platform
 
 ## Put here correct revision number. It should be the same
 ## as directory name
-revision = "V1I1"
+revision = "V1I2"
 
 # Backslash alignment between different OSes
 if _platform == "linux" or _platform == "linux2":
