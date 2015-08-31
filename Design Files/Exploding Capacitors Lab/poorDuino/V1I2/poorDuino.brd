@@ -1253,7 +1253,7 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 <via x="64.77" y="16.383" extent="1-16" drill="0.6"/>
 <via x="8.636" y="6.604" extent="1-16" drill="0.6"/>
 <via x="20.32" y="33.02" extent="1-16" drill="0.6"/>
-<via x="49.784" y="36.195" extent="1-16" drill="0.6"/>
+<via x="47.879" y="34.925" extent="1-16" drill="0.6"/>
 <via x="8.255" y="41.656" extent="1-16" drill="0.6"/>
 </signal>
 <signal name="AREF" class="4">
@@ -1532,12 +1532,16 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 <via x="17.4625" y="47.9425" extent="1-16" drill="0.6"/>
 <wire x1="17.4625" y1="47.9425" x2="17.78" y2="48.26" width="0.6096" layer="16"/>
 </signal>
-<signal name="IO2">
+<signal name="USB_P">
 <contactref element="IOL" pad="3"/>
 <contactref element="ZU4" pad="4"/>
-<wire x1="55.245" y1="20.193" x2="55.245" y2="34.29" width="0.6096" layer="1"/>
-<wire x1="55.245" y1="34.29" x2="58.42" y2="37.465" width="0.6096" layer="1"/>
-<wire x1="58.42" y1="37.465" x2="58.42" y2="50.8" width="0.6096" layer="1"/>
+<wire x1="58.42" y1="50.8" x2="58.42" y2="48.006" width="0.254" layer="1"/>
+<wire x1="58.42" y1="48.006" x2="56.134" y2="45.72" width="0.254" layer="1"/>
+<wire x1="56.134" y1="45.72" x2="56.134" y2="37.3597875" width="0.254" layer="1"/>
+<wire x1="56.134" y1="37.3597875" x2="52.959" y2="34.1847875" width="0.254" layer="1"/>
+<wire x1="52.959" y1="34.1847875" x2="52.959" y2="24.511" width="0.254" layer="1"/>
+<wire x1="52.959" y1="24.511" x2="55.245" y2="22.225" width="0.254" layer="1"/>
+<wire x1="55.245" y1="22.225" x2="55.245" y2="20.193" width="0.254" layer="1"/>
 </signal>
 <signal name="IO1">
 <contactref element="ZU4" pad="3"/>
@@ -1556,16 +1560,26 @@ Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
 <signal name="IO3">
 <contactref element="ZU4" pad="5"/>
 <contactref element="IOL" pad="4"/>
-<wire x1="52.705" y1="20.193" x2="52.705" y2="34.29" width="0.6096" layer="1"/>
-<wire x1="52.705" y1="34.29" x2="55.88" y2="37.465" width="0.6096" layer="1"/>
-<wire x1="55.88" y1="37.465" x2="55.88" y2="50.8" width="0.6096" layer="1"/>
+<wire x1="52.705" y1="20.193" x2="52.705" y2="22.225" width="0.6096" layer="16"/>
+<wire x1="52.705" y1="22.225" x2="50.165" y2="24.765" width="0.6096" layer="16"/>
+<via x="50.165" y="24.765" extent="1-16" drill="0.6"/>
+<wire x1="50.165" y1="24.765" x2="50.165" y2="34.925" width="0.6096" layer="1"/>
+<via x="50.165" y="34.925" extent="1-16" drill="0.6"/>
+<wire x1="50.165" y1="34.925" x2="53.34" y2="38.1" width="0.6096" layer="16"/>
+<wire x1="53.34" y1="38.1" x2="53.34" y2="45.72" width="0.6096" layer="16"/>
+<wire x1="53.34" y1="45.72" x2="55.88" y2="48.26" width="0.6096" layer="16"/>
+<wire x1="55.88" y1="48.26" x2="55.88" y2="50.8" width="0.6096" layer="16"/>
 </signal>
-<signal name="IO4">
+<signal name="USB_N">
 <contactref element="IOL" pad="5"/>
 <contactref element="ZU4" pad="6"/>
-<wire x1="50.165" y1="20.193" x2="50.165" y2="34.29" width="0.6096" layer="1"/>
-<wire x1="50.165" y1="34.29" x2="53.34" y2="37.465" width="0.6096" layer="1"/>
-<wire x1="53.34" y1="37.465" x2="53.34" y2="50.8" width="0.6096" layer="1"/>
+<wire x1="53.34" y1="50.8" x2="53.34" y2="48.006" width="0.254" layer="1"/>
+<wire x1="53.34" y1="48.006" x2="55.626" y2="45.72" width="0.254" layer="1"/>
+<wire x1="55.626" y1="45.72" x2="55.626" y2="37.5702125" width="0.254" layer="1"/>
+<wire x1="55.626" y1="37.5702125" x2="52.451" y2="34.3952125" width="0.254" layer="1"/>
+<wire x1="52.451" y1="34.3952125" x2="52.451" y2="24.511" width="0.254" layer="1"/>
+<wire x1="52.451" y1="24.511" x2="50.165" y2="22.225" width="0.254" layer="1"/>
+<wire x1="50.165" y1="22.225" x2="50.165" y2="20.193" width="0.254" layer="1"/>
 </signal>
 <signal name="IO5">
 <contactref element="ZU4" pad="11"/>

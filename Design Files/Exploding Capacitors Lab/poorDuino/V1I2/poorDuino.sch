@@ -16771,7 +16771,7 @@ http://fryco.github.io/poorDuino/</text>
 <label x="34.29" y="66.04" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="IO2" class="0">
+<net name="USB_P" class="0">
 <segment>
 <wire x1="234.95" y1="81.28" x2="186.69" y2="81.28" width="0.1524" layer="91"/>
 <label x="219.71" y="81.28" size="1.778" layer="95"/>
@@ -16803,7 +16803,7 @@ http://fryco.github.io/poorDuino/</text>
 <pinref part="IOL" gate="A" pin="4"/>
 </segment>
 </net>
-<net name="IO4" class="0">
+<net name="USB_N" class="0">
 <segment>
 <wire x1="234.95" y1="86.36" x2="186.69" y2="86.36" width="0.1524" layer="91"/>
 <label x="219.71" y="86.36" size="1.778" layer="95"/>
